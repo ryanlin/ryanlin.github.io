@@ -1,0 +1,23 @@
+file: devlog.txt
+author: ryan lin
+created: 5 Oct, 2021
+modified: 5 Oct, 2021
+notes: rough notes on what i did and plan to do for this webpage.
+
+
+...
+
+
+###
+Oct 5, 2021
+Wishlist:
+- Contact page/button, maybe a form
+- clickable projects, maybe learn more or "expands" details.
+- dedicated project pages.
+
+Accomplished:
+- Planning page design and content.
+- Formatting sections and cards, responsive.
+- Finding, editting and adding appropriate pictures.
+- Writing Titles and project summaries.
+- Added social links and email in footer
