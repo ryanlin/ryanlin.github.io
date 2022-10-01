@@ -7,6 +7,18 @@ notes: rough notes on what i did and plan to do for this webpage.
 
 ...
 
+###
+Oct 1, 2022
+Accomplished:
+- Overhauled the style
+- Extremely brutally simple architecture, just serve html pages
+Next:
+- Contact Form
+- Make assets
+- Make Project pages
+Wishlist:
+- snap scrolling
+
 
 ###
 Oct 5, 2021
