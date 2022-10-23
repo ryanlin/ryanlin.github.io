@@ -4,214 +4,228 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" type="text/css">
-  <!-- TODO: include bootstrap files locally instead of grabbing from online -->
-  <link rel="stylesheet" href="./css/ryanlin.css">
-  <title>Ryan Lin, Welcome!</title>
-  <meta name="description" content="Ryan Lin's Projects.">
-  <meta name="keywords" content="ryan, lin, projects, product, manager, computer, vision, software, engineer, machine, learning, graduate">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="colorful.css">
 </head>
 
 <body>
-  <nav class="nav sticky-top">
-    <a class="nav-logo nav-link" href="#">Ryan Lin</a>
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container"> <a class="navbar-brand text-primary" href="#">
+        <i class="fa d-inline fa-lg fa-leaf"></i>
+        <b> RYAN LIN</b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#experience">Experience</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#projects">Projects</a> </li>
+        </ul> <a class="btn navbar-btn ml-md-2 btn-primary text-light" href="#contact">Contact</a>
+      </div>
+    </div>
   </nav>
-  
-  <main role="main" class="main"> 
-    <!-- Cover Section -->
-    <div class="cover jumbotron d-flex justify-content-center align-items-center">
-      <div class="row col-9 col-sm-6 mx-auto flex-column cover-content">
-        <p class="cover-phrase ps-0 mt-0 mb-0">Explorer for Hire!</p>
-        <p class="cover-subphrase ps-0">
-          Blaze new trails in designing, developing, and evaluating novel concepts in tech.
-        </p>
-        <button class="cover-button me-auto btn btn-warning" href="#">Reach Out</button>
-        
+  <div class="py-5 cover d-flex flex-column shadow">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-3">Welcome!</h1>
+          <p class="lead">You've found the page of Ryan Lin, a Software Engineer versed in machine learning and ux research. Currently open to new opportunities.</p><a class="btn btn-outline-primary p-2" href="#contact">Get in Touch</a>
+        </div>
       </div>
     </div>
-    
-    <!-- Research Section -->
-    <div class="section d-flex justify-content-center align-items-center section1">
-      <div class="container py-5 ">
-        <!-- Section Header -->
-        <div class="row pb-2">
-          <div class="section-header col-12 text-center">
-            <p class="section-title">Research</p>
-          </div>
-        </div>
-        <!-- Section Items -->
-        <div class="row px-lg-5">
-          <div class="col-8 col-sm-4 mx-auto mb-0">
-            <div class="pane p-2">
-              <a class="pane-link" href="./projects/nextgen.html">
-                <img
-                  class="pane-img img-fluid"
-                  src="https://raw.githubusercontent.com/ryanlin/ryanlin.github.io/main/assets/nextgen.png" 
-                />
-                <div class="pt-1 ps-1">
-                  <p class="pane-title my-auto">SubTerranean AI</p>
-                  <p class="pane-text">Nimble object-detection for autonomous robots</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-8 col-sm-4 mx-auto mb-0">
-            <div class="pane p-2">
-              <a class="pane-link" href="#">
-                <img
-                  class="pane-img img-fluid"
-                  src="https://raw.githubusercontent.com/ryanlin/ryanlin.github.io/main/assets/nextgen.png" 
-                />
-                <div class="pt-1 ps-1">
-                  <p class="pane-title my-auto">COVID-19 Forecast</p>
-                  <p class="pane-text">Using neural networks to predict future outbreaks</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-8 col-sm-4 mx-auto mb-0">
-            <div class="pane p-2">
-              <a class="pane-link" href="#">
-                <img
-                  class="pane-img img-fluid"
-                  src="https://raw.githubusercontent.com/ryanlin/ryanlin.github.io/main/assets/nextgen.png" 
-                />
-                <div class="pt-1 ps-1">
-                  <p class="pane-title my-auto">Probing BERT</p>
-                  <p class="pane-text">Uncovering the secrets of blackbox language models</p>
-                  <p class="pane-text"><i>Coming Soon!</i></p>
-                </div>
-              </a>
-            </div>
-          </div>     
-          
-        </div>
-      </div>      
-    </div>
-
-    <!-- Software Section -->
-    <div class="section d-flex justify-content-center align-items-center section2">
-      <div class="container py-5 ">
-        <!-- Section Header -->
-        <div class="row pb-2">
-          <div class="section-header col-12 text-center">
-            <p class="section-title">Software</p>
-          </div>
-        </div>
-        <!-- Section Items -->
-        <div class="row px-lg-5">
-          <div class="col-8 col-sm-4 mx-auto mb-0">
-            <div class="pane p-2">
-              <a class="pane-link" href="./projects/nextgen.html">
-                <img
-                  class="pane-img img-fluid"
-                  src="https://raw.githubusercontent.com/ryanlin/ryanlin.github.io/main/assets/nextgen.png" 
-                />
-                <div class="pt-1 ps-1">
-                  <p class="pane-title my-auto">Next Gen</p>
-                  <p class="pane-text">Cyberpunk virtual space</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-8 col-sm-4 mx-auto mb-0">
-            <div class="pane p-2">
-              <a class="pane-link" href="#">
-                <img
-                  class="pane-img img-fluid"
-                  src="https://raw.githubusercontent.com/ryanlin/ryanlin.github.io/main/assets/nextgen.png" 
-                />
-                <div class="pt-1 ps-1">
-                  <p class="pane-title my-auto">MCAV</p>
-                  <p class="pane-text">Multi-sensor calibration tool</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-8 col-sm-4 mx-auto mb-0">
-            <div class="pane p-2">
-              <a class="pane-link" href="#">
-                <img
-                  class="pane-img img-fluid"
-                  src="https://raw.githubusercontent.com/ryanlin/ryanlin.github.io/main/assets/nextgen.png" 
-                />
-                <div class="pt-1 ps-1">
-                  <p class="pane-title my-auto">VisualAIzer</p>
-                  <p class="pane-text">AI song sentiment analyzer and visualizer</p>
-                </div>
-              </a>
-            </div>
-          </div>     
-          
-        </div>
-      </div>      
-    </div>
-
-    <!-- Design Section -->
-    <div class="section d-flex justify-content-center align-items-center section3">
-      <div class="container py-5 ">
-        <!-- Section Header -->
-        <div class="row pb-2">
-          <div class="section-header col-12 text-center">
-            <p class="section-title">Design</p>
-          </div>
-        </div>
-        <!-- Section Items -->
-        <div class="row px-lg-5">
-          <div class="col-8 col-sm-4 mx-auto mb-0">
-            <div class="pane p-2">
-              <a class="pane-link" href="./projects/nextgen.html">
-                <img
-                  class="pane-img img-fluid"
-                  src="https://raw.githubusercontent.com/ryanlin/ryanlin.github.io/main/assets/nextgen.png" 
-                />
-                <div class="pt-1 ps-1">
-                  <p class="pane-title my-auto">Unhynged</p>
-                  <p class="pane-text">Painter's tacklebox</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-8 col-sm-4 mx-auto mb-0">
-            <div class="pane p-2">
-              <a class="pane-link" href="#">
-                <img
-                  class="pane-img img-fluid"
-                  src="https://raw.githubusercontent.com/ryanlin/ryanlin.github.io/main/assets/nextgen.png" 
-                />
-                <div class="pt-1 ps-1">
-                  <p class="pane-title my-auto">Tissue Tags</p>
-                  <p class="pane-text">What if tissue boxes weren't just boxes?</p>
-                </div>
-              </a>
-            </div>
-          </div> 
-        </div>
-      </div>      
-    </div>
-
-    <!-- TODO: Contact Section-->
-    
-  </main>
-  
-  <footer class="footer container p-2">
-    <div class="footer-content row">
-      <div class="footer-left d-flex flex-row col-12 col-md-6 justify-content-center">
-        <p class="flex-column m-1">Ryan Lin, BSci</p>
-        <p class="flex-column m-1">New York City, USA</p>
-      </div>
-      <div class="footer-right d-flex flex-row col-12 col-md-6 justify-content-center">
-        <a class="flex-column m-1 footer-link" href="#">LinkedIn</a>
-        <a class="flex-column m-1 footer-link" href="#">Github</a>
-        <a class="flex-column m-1 footer-link" href="#">Twitter</a>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12 d-flex flex-column align-items-center" style=""><a href="#about" class="text-dark">
+            <p class="lead mb-0 mx-auto text-body">Read On</p><i class="d-block fa fa-angle-down fa-fw mx-auto text-body fa-2x"></i>
+          </a></div>
       </div>
     </div>
-  </footer>
+  </div>
+  <div class="py-5" id="about" style="">
+    <div class="container">
+      <div class="row about">
+        <div class="col-md-3 text-center d-flex flex-column justify-content-center mx-auto" style=""><i class="fa fa-5x fa-address-card v text-primary mx-auto my-5 p-3 border border-primary rounded shadow" style=""></i></div>
+        <div class="col-md-8 my-auto" style="">
+          <h2 class="">About Me</h2>
+          <p class="">Hi, I'm Ryan! I'll have a photo on here soon, but until then you'll just have to believe me when I say I'm a 6'6" and exceedingly handsome guy. I've explored many frontiers of technology ranging from machine learning to information technologies, and have grown myself to be an attentive software engineer that can confidently find footing in any domain I come across. I aim to create system, tools or experiences that is gratifying for end users and developers. If you know of any opportunities or want to talk about anything on this page, feel free to reach out!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" style="" id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 my-auto col-sm-4">
+          <h2 class="mx-auto text-left">Places I've Worked</h2>
+        </div>
+        <div class="col-md-8 py-2">
+          <div class="card text-center border shadow" style="	transform:  rotate(0) ;">
+            <div class="card-header bg-primary">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item" style="">
+                  <a class="nav-link active" data-toggle="tab" data-target="#tabone">Roblox</a>
+                </li>
+                <li style="" class="nav-item">
+                  <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo">Autonomous</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="" data-toggle="tab" data-target="#tabthree">IGT</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <div class="tab-content mt-2">
+                <div class="tab-pane fade show active" id="tabone" role="tabpanel">
+                  <h6 class="my-0">Accelerator Program Intern</h6>
+                  <p class="mb-0">May 2020 - August 2020</p>
+                  <ul class="text-left mx-auto">
+                    <li>Designed, developed, and launched a virtual experience to 100 early access playtesters.<br></li>
+                    <li>Developed a Lua module for developing Game AI development, reducing iteration costs by 50%.</li>
+                    <li>Engaged in playtest sessions and focus groups, producing insights from both players and developers.</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="tabtwo" role="tabpanel">
+                  <h6 class="my-0" contenteditable="true">Undergraduate ML Researcher</h6>
+                  <p class="mb-0">May 2019 - September 2019</p>
+                  <ul class="text-left mx-auto">
+                    <li>Composed and presented proposal on a lightweight method for object detection in degraded underground environments.</li>
+                    <li>Developed a 20fps detection system by processing a custom dataset of 1000+ images and training a multi-class SVM.</li>
+                    <li>Presented results to our team, who ultimately won 1st in the DARPA SubT Challenge against 25+ international institutions.</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="tabthree" role="tabpanel">
+                  <h6 class="my-0">Global IT Intern</h6>
+                  <p class="mb-0">February 2018 - November 2018</p>
+                  <ul class="text-left mx-auto">
+                    <li>Supported 100+ employees remotely to resolve technical roadblocks on various systems and from various countries.</li>
+                    <li>Facilitated user success in a domain migration across 8+ countries with custom consultations and instructions.</li>
+                    <li>Resolved 80+ issues asynchronously with cross-team colleagues by precisely documenting each issue and steps taken.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" style="" id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center">Some Things I've Made</h2>
+        </div>
+      </div>
+      <div class="row pb-4" style="">
+        <div class="col-md-4 py-2">
+          <div class="card mx-auto shadow bg-light border"><img class="img-fluid d-block mx-auto p-2" src="assets/nextgen_thumb.png" width="100%">
+            <div class="card-body py-0">
+              <p class="text-muted">car in procedural cityscape</p>
+            </div>
+          </div>
+        </div>
+        <div class="my-auto col-md-8 py-1">
+          <h4 class="text-left">NextGen Virtual Experience</h4>
+          <p class="">NextGen is a virtual cyberpunk cityscape that encourages exploration, creation, and ownership.&nbsp;Supporting Roblox's goal to age up and build better developer tools, this project gained insights from over 100 players and produced a module that increased the speed of Game AI development.</p>
+          <ul class="list-inline mb-0 text-muted">
+            <li class="list-inline-item">Game Design</li>
+            <li class="list-inline-item">UX Design</li>
+            <li class="list-inline-item">Game AI</li>
+            <li class="list-inline-item">OOP</li>
+            <li class="list-inline-item">LUA/LUAU</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row py-4" style="">
+        <div class="my-auto col-md-8 py-1">
+          <h4 class="text-left">SADBOI Vision AI</h4>
+          <p class="" style="">Underground environments are the ultimate test of robot autonomy as nearly all outside signals are blocked.&nbsp;Subterranean Artifact Detection using Bag Of Interestpoints (SADBOI) combines computer vision methods with multi-class SVM's to identify artifacts in realtime (20Hz) while using less system resources. This project was developed with Team Cerberus, 1st Place winners of the DARPA SubTerranean Challenge.</p>
+          <ul class="list-inline mb-0 text-muted">
+            <li class="list-inline-item">Machine Learning</li>
+            <li class="list-inline-item">Computer Vision</li>
+            <li class="list-inline-item" contenteditable="true">Robotics</li>
+            <li class="list-inline-item">Data Science<br></li>
+            <li class="list-inline-item">AI<br></li>
+            <li class="list-inline-item">Ubuntu<br></li>
+            <li class="list-inline-item">ROS<br></li>
+            <li class="list-inline-item" contenteditable="true">OpenCV<br></li>
+            <li class="list-inline-item">C++<br></li>
+          </ul>
+        </div>
+        <div class="col-md-4 py-2">
+          <div class="card mx-auto shadow bg-light border"><img class="img-fluid d-block mx-auto p-2" src="assets/sad_thumb.png" width="100%">
+            <div class="card-body py-0">
+              <p class="text-muted">sadboi in the mines</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row py-4" style="">
+        <div class="my-auto col-md-8 py-1 order-md-12" style="">
+          <h4 class="text-left">Multi-Sensor Calibration App</h4>
+          <p class="" style="">Robotics researchers face the unforgiving task of perfectly calibrating the multitude of sensors mounted on autonomous cars. The Multi-Sensor Calibration App is an app that takes sensor data and calculates calibration matrices automatically. The result is safer calibrations, faster research, and a more accessible future for robotics.</p>
+          <ul class="list-inline mb-0 text-muted">
+            <li class="list-inline-item">React</li>
+            <li class="list-inline-item" contenteditable="true">Electron</li>
+            <li class="list-inline-item">KonvaJS(Canvas Library)</li>
+            <li class="list-inline-item">Requirements Writing</li>
+            <li class="list-inline-item">User Research</li>
+          </ul>
+        </div>
+        <div class="col-md-4 order-md-1 py-2">
+          <div class="card mx-auto shadow bg-light border"><img class="img-fluid d-block mx-auto p-2" src="assets/mcav_thumb.png" width="100%">
+            <div class="card-body py-0 text-muted">
+              <p class="">sensor graph with lidar overlay</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center py-5" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="">Get in Touch</h2>
+        </div>
+      </div>
+      <div class="row py-4" style="">
+        <div class="col-10 col-md-5 mx-auto shadow border p-2">
+          <div class="card">
+            <div class="card-body">
+              <h4>Ryan Lin</h4>
+              <p class="mx-auto">BSci Computer Science and Engineering<br>Minor in Statistics<br><br>ryanlin800@gmail.com<br>New York City, USA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-3 bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="d-flex col-md-10 text-center justify-content-start align-items-center">
+          <p class="mb-0 text-left">© 2022 Ryan Lin. All rights reserved</p>
+        </div>
+        <div class="d-flex align-items-center justify-content-md-between justify-content-center my-2 col-md-2"> <a href="https://github.com/ryanlin">
+            <i class="d-block fa fa-github fa-lg mx-2 text-light"></i>
+          </a> <a href="https://linkedin.com/in/linryan">
+            <i class="d-block fa fa-linkedin fa-lg mx-2 text-light"></i>
+          </a> <a href="https://open.spotify.com/playlist/48VWDwjQSOFBeOtJkJb7Ky?si=dc14bfaf614c4475" class="text-light">
+            <i class="d-block fa fa-spotify text-light fa-lg ml-2"></i>
+          </a> </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
