@@ -6548,3 +6548,15 @@ html, body {
     height: 100%;
     content: ' ';
     background: rgba(21, 21, 21, 0.75); }
+
+/* horizontal scroll for nav tabs */
+.side-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.side-scroll > .nav-item li {
+  display: inline-block;
+  float: none;
+}
